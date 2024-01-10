@@ -1,0 +1,2 @@
+PaymentStrategy é a interface comum para todas as estratégias concretas. 
+Cada estratégia concreta, como CreditCardPayment, PayPalPayment e BankTransferPayment, implementa o método process_payment de acordo com sua lógica específica.
