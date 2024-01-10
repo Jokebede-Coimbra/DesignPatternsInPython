@@ -1,0 +1,1 @@
+Processo: No Adapter > chama o Handle que vai enviar a mensagem para o Code

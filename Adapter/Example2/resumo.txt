@@ -1,0 +1,3 @@
+O padrão Adapter pode ser usado para fazer com que objetos com interfaces incompatíveis colaborem entre si.
+O adaptador AdapterUSASocket permite que a tomada dos EUA seja usada como se fosse uma tomada europeia, 
+adaptando a interface para a interface desejada.
