@@ -4,3 +4,11 @@ Para implementar preciso de:
 - Ter um construtor privado
 - Método de acesso público(get_instance)
 - Atributo estático da classe do singleton
+
+Implementação Típica:
+
+A implementação clássica do Singleton envolve os seguintes elementos:
+
+- Construtor Privado: O construtor da classe é definido como privado para evitar a criação de instâncias diretamente.
+- Método Estático de Acesso: Um método estático é fornecido para acessar a única instância da classe. Se a instância ainda não existe, ela é criada neste método.
+- Variável de Instância Privada: A própria classe mantém uma variável privada que armazena a instância única da classe.
