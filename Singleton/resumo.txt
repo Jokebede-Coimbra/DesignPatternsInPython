@@ -1,0 +1,6 @@
+Singleton: Uma classe que só pode criar uma instância e é usada por todo o sistema.
+
+Para implementar preciso de:
+- Ter um construtor privado
+- Método de acesso público(get_instance)
+- Atributo estático da classe do singleton
