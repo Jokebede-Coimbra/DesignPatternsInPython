@@ -16,3 +16,14 @@ Padrões de projeto são soluções típicas para problemas comuns em projeto de
 - **Strategy (Estratégia):** Interface comum para todas as estratégias concretas. Geralmente, declara um método que representa o algoritmo que as classes concretas implementarão.
 
 - **ConcreteStrategy (Estratégia Concreta):** Implementa o algoritmo definido na interface Strategy. Vários ConcreteStrategy podem existir para fornecer diferentes implementações de um mesmo comportamento.
+
+## 2. Singleton
+- O Singleton é um padrão de projeto de criação que garante que uma classe tenha apenas uma instância e fornece um ponto global de acesso a essa instância.
+
+**Principais Características:**
+  
+- **Única Instância:** O Singleton garante que uma classe tenha apenas uma instância e fornece um método global para acessar essa instância.
+
+- **Acesso Global:** O Singleton fornece um ponto de acesso global à instância única, permitindo que outras classes obtenham referência a essa instância.
+
+- **Controle de Acesso:** Geralmente, o Singleton controla o acesso à sua única instância, garantindo que ela seja criada apenas quando necessário.
