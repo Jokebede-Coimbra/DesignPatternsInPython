@@ -1,0 +1,1 @@
+Um decorador é uma função que aceita outra função como entrada e geralmente retorna uma nova função que estende ou modifica o comportamento da função original.

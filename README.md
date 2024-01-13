@@ -27,3 +27,6 @@ Padrões de projeto são soluções típicas para problemas comuns em projeto de
 - **Acesso Global:** O Singleton fornece um ponto de acesso global à instância única, permitindo que outras classes obtenham referência a essa instância.
 
 - **Controle de Acesso:** Geralmente, o Singleton controla o acesso à sua única instância, garantindo que ela seja criada apenas quando necessário.
+
+## 2. Decorator
+- Os decoradores em Python são uma maneira poderosa de modificar ou estender o comportamento de funções ou métodos sem alterar diretamente seu código. Eles são aplicados usando o símbolo @ seguido do nome do decorador acima da definição da função.
