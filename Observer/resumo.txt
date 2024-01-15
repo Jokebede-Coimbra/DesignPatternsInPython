@@ -1,0 +1,16 @@
+Componentes do Padrão Observer:
+
+Subject (Assunto):
+Mantém uma lista de observadores e fornece métodos para adicionar, remover e notificar observadores.
+Notifica os observadores quando ocorrem mudanças no estado.
+
+Observer (Observador):
+Define uma interface para observadores que devem ser notificados quando ocorrem mudanças no estado do Subject.
+
+ConcreteSubject (Assunto Concreto):
+Implementa as operações específicas do domínio que podem causar mudanças no estado.
+Notifica os observadores após realizar as alterações.
+
+ConcreteObserver (Observador Concreto):
+Mantém uma referência ao objeto ConcreteSubject.
+Implementa a interface Observer para receber notificações e atualizar-se quando o estado do ConcreteSubject muda.

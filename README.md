@@ -30,3 +30,6 @@ Padrões de projeto são soluções típicas para problemas comuns em projeto de
 
 ## 2. Decorator
 - Os decoradores em Python são uma maneira poderosa de modificar ou estender o comportamento de funções ou métodos sem alterar diretamente seu código. Eles são aplicados usando o símbolo @ seguido do nome do decorador acima da definição da função.
+
+## 2. Observer
+- Observer é um padrão comportamental que define uma dependência um-para-muitos entre objetos, de modo que quando um objeto muda de estado, todos os seus dependentes são notificados e atualizados automaticamente. Este padrão é comumente usado para implementar sistemas de eventos e listeners.
