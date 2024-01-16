@@ -17,7 +17,7 @@ Padrões de projeto são soluções típicas para problemas comuns em projeto de
 
 - **ConcreteStrategy (Estratégia Concreta):** Implementa o algoritmo definido na interface Strategy. Vários ConcreteStrategy podem existir para fornecer diferentes implementações de um mesmo comportamento.
 
-## 2. Singleton
+## 3. Singleton
 - O Singleton é um padrão de projeto de criação que garante que uma classe tenha apenas uma instância e fornece um ponto global de acesso a essa instância.
 
 **Principais Características:**
@@ -28,8 +28,19 @@ Padrões de projeto são soluções típicas para problemas comuns em projeto de
 
 - **Controle de Acesso:** Geralmente, o Singleton controla o acesso à sua única instância, garantindo que ela seja criada apenas quando necessário.
 
-## 2. Decorator
+## 4. Decorator
 - Os decoradores em Python são uma maneira poderosa de modificar ou estender o comportamento de funções ou métodos sem alterar diretamente seu código. Eles são aplicados usando o símbolo @ seguido do nome do decorador acima da definição da função.
 
-## 2. Observer
+## 5. Observer
 - Observer é um padrão comportamental que define uma dependência um-para-muitos entre objetos, de modo que quando um objeto muda de estado, todos os seus dependentes são notificados e atualizados automaticamente. Este padrão é comumente usado para implementar sistemas de eventos e listeners.
+
+## 6. Facade
+- O padrão de projeto Facade é um padrão estrutural que fornece uma interface simplificada para um conjunto mais amplo e complexo de interfaces em um subsistema, tornando mais fácil para os clientes (ou outras partes do sistema) interagirem com esse subsistema.
+
+**Principais Características:***
+
+- **Simplicidade de Interface:** A Facade fornece uma interface única e simplificada que esconde a complexidade do subsistema subjacente.
+
+- **Encapsulamento:** O padrão promove o encapsulamento, isolando os detalhes internos do subsistema e fornecendo uma interface mais amigável.
+
+- **Desacoplamento:** Facade reduz a dependência entre o cliente e as classes do subsistema, permitindo que o cliente interaja apenas com a Facade.

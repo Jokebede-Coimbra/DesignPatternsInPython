@@ -1,0 +1,13 @@
+Observação:
+
+O facede segue o principio da Lei de Demeter:
+A Lei de Demeter é uma heurística que diz: 
+"Um módulo não deve enxergar o interior dos objetos que ele manipula".
+Ou seja, um método b de uma classe C só deve chamar os métodos de:
+
+* C; 
+* Um objeto criado por b; 
+* Objeto passado como parâmetro para b; 
+* Um objeto dentro de uma instância da variável b;
+
+"Fale apenas com conhecidos, não com estranhos".
