@@ -1,0 +1,12 @@
+ Facade simples para um sistema de notificação.
+
+
+1 - Crie uma classe EmailService com um método send_email(to, subject, body) que imprima uma mensagem simulando o envio de um e-mail.
+
+2 - Crie uma classe SMSService com um método send_sms(number, message) que imprima uma mensagem simulando o envio de uma mensagem SMS.
+
+3 - Crie uma classe PushNotificationService com um método send_push_notification(device_id, message) que imprima uma mensagem simulando o envio de uma notificação push.
+
+4 - Agora, crie a classe NotificationFacade que terá um método send_notification(type, recipient, message). Este método deve aceitar o tipo de notificação (email, sms ou push), o destinatário e a mensagem. Internamente, utilize as classes do passo 1-3 para encaminhar a notificação apropriada.
+
+No programa principal (ou em um novo script), crie uma instância da NotificationFacade e use-a para enviar notificações de diferentes tipos.

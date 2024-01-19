@@ -37,7 +37,7 @@ Padrões de projeto são soluções típicas para problemas comuns em projeto de
 ## 6. Facade
 - O padrão de projeto Facade é um padrão estrutural que fornece uma interface simplificada para um conjunto mais amplo e complexo de interfaces em um subsistema, tornando mais fácil para os clientes (ou outras partes do sistema) interagirem com esse subsistema.
 
-**Principais Características:***
+**Principais Características:**
 
 - **Simplicidade de Interface:** A Facade fornece uma interface única e simplificada que esconde a complexidade do subsistema subjacente.
 

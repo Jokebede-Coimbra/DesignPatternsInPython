@@ -1,0 +1,12 @@
+ Um sistema de gerenciamento de pedidos de um restaurante online
+
+1 - Crie classes para representar diferentes partes do sistema de pedidos: OrderSystem, PaymentSystem e NotificationSystem. 
+    Cada uma dessas classes deve ter métodos para realizar tarefas relacionadas a pedidos, pagamentos e notificações, respectivamente.
+
+2 - Implemente uma classe OrderFacade que atua como uma interface simplificada para o sistema de pedidos. A OrderFacade deve ter métodos para realizar operações comuns, como fazer um novo pedido, processar o pagamento e notificar o cliente sobre o pedido. 
+    Internamente, a OrderFacade utilizará as classes do sistema para realizar essas tarefas.
+
+3 - No programa principal, crie uma instância da OrderFacade e use-a para simular a criação de um novo pedido. 
+    Chame métodos como place_order, process_payment e notify_customer usando a OrderFacade.
+
+4 - Imprima mensagens para indicar o progresso e o resultado do pedido.
